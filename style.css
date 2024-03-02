@@ -1,0 +1,109 @@
+body{
+    background-color: #F3EAE3;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.all_intrument{
+    width: 534px;
+    height: 399px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+}
+.all_intrument .right{
+    width: 267px;
+    height: 399px;
+}
+.all_intrument .right img{
+    Width:267px;
+    height: 399px;
+    top: 312px;
+    left: 453px;
+    /* border-radius:10px, 0px, 0px, 10px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.all_intrument .left{
+    width: 267px;
+    height: 399px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 30px;
+    
+}
+.all_intrument .left h3{
+    /* padding: 30px; */
+    font-family: sans-serif;
+    color: #858585;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 7px; 
+}
+.all_intrument .left h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 29px;
+    padding-top: 15px; 
+    color: #2A2E31;
+}
+.all_intrument .left p{
+    width: 110%;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #7C7D81;
+    line-height:20px;
+    padding-top: 26px;
+}
+.all_intrument .left h2{
+    font-family: serif;
+    color: #3F8068;
+    font-weight: 700;
+    font-size: 32px;
+    padding-top: 26px;
+}
+.all_intrument .left h4{
+    color: #7E7C87;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    padding-left: 120px;
+    margin-top: -23px;
+}
+.all_intrument button{
+    width: 211px;
+    height: 43px;
+    border-radius: 10px;
+    margin-top: 26px;
+    background-color: #3D8168;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.all_intrument button img{
+    width: 15px;
+    height: 16px;
+    color: #ffffff;
+    margin-right: 5px;
+}
+.all_intrument button h5{
+    width: 73px;
+    height: 12px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 12px;
+}
